@@ -1,0 +1,155 @@
+body{
+    font-family:'Cascadia Code', sans-serif;
+    background-color: #D1EFFF ;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00144A;
+    color: #ebf8ff;
+    
+}
+.logo{
+    /*Using h3 automatically gives a 18.720px bottom and top margin, we fix to 16 all around*/
+    margin: 16px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    margin: 16px;
+    padding: 0px;
+}
+.header a{
+    text-decoration: none;
+    color: #ebf8ff;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+    background-color: #00144A;
+    gap: 24px;
+}
+
+#title{
+    color: white;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.text{
+    color: rgba(211, 211, 211, 0.869);
+    max-width: 500px;
+}
+
+.button{
+    background-color: #00144A;
+    color: white;
+    padding: 8px;
+    border:  white solid;
+    border-radius: 10px ;
+    font-weight: bold;
+}
+
+.main-img{
+    /*Responive image*/
+    width: 50%;
+    height: 50%;
+    max-height: 300px;
+    max-width: 450px;
+    /*rounded border*/
+    border: 8px #ebf8ff solid;
+    border-radius: 25px;
+}
+
+.content2{
+    color: #00144A;
+    margin-bottom: 48px;
+
+}
+
+#title2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.showcase-box{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 16px;
+}
+
+.showcase{
+    text-align: center;
+}
+.sub-img{
+    width: 80%;
+    height: 80%;
+    max-height: 200px;
+    max-width: 300px;
+    border: 4px #00144A solid;
+    border-radius: 20px;
+}
+
+.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00144A;
+    color: white;
+    padding: 36px;
+    
+}
+
+.quote{
+    line-height: 2;
+    font-size: 20px;
+    font-style: italic ;
+    font-family: "Inter", sans-serif;
+    max-width: 1400px;
+}
+
+#author{
+    text-align: right;
+}
+
+.content4{
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    
+}
+.signup-box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #00144A;
+    min-width: 800px;
+    padding: 24px;
+    border: 6px #00144A solid;
+    border-radius: 25px;
+    color: white;
+    
+    gap: 32px;
+
+}
+
+#finalbutton{
+    /*fixing absolute size for button*/
+    width: 91px;
+    height: 34.5px;
+    margin-top: 24px;
+}
+
+
+
+
+
+
